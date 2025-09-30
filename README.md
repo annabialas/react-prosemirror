@@ -698,7 +698,6 @@ type NodeViewComponentProps = {
     decorations: readonly Decoration[];
     innerDecorations: DecorationSource;
     node: Node;
-    children?: ReactNode | ReactNode[];
     getPos: () => number;
   };
 } & HTMLAttributes<HTMLElement>;
